@@ -1,0 +1,6 @@
+framework module Pods_ACI_News {
+  umbrella header "Pods-ACI_News-umbrella.h"
+
+  export *
+  module * { export * }
+}
