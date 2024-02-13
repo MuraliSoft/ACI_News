@@ -6,9 +6,6 @@
 //
 
 #import <XCTest/XCTest.h>
-
-// NewsFeedManagerTests.m
-#import <XCTest/XCTest.h>
 #import "NewsFeedManager.h"
 
 @interface NewsFeedManagerTests : XCTestCase

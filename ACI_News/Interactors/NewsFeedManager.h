@@ -6,12 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NewsArticle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NewsFeedManager : NSObject
 
 - (void)loadNewsArticlesWithCompletion:(void (^)(NSArray *articles, NSError *error))completion;
+- (void)loadNewsArticlesFromAPIWithCompletion:(void (^)(NSArray *articles, NSError *error))completion;
 
 @end
 
